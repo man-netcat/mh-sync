@@ -78,7 +78,7 @@ make
 # or individually: make 3ds / make switch
 ```
 
-Output: `build/3ds/mh-sync-3ds.3dsx` and `build/switch/mh-sync-switch.nro`.
+Output: `3ds/build/mh-sync-3ds.3dsx` and `switch/build/mh-sync-switch.nro`.
 
 ### Without Docker
 
