@@ -1,0 +1,35 @@
+BasicInfo:
+  Title: "MH-Sync 3DS"
+  CompanyCode: "01"
+  ProductCode: "CTR-P-MHSN"
+  ContentType: Application
+  
+SystemControlInfo:
+  StackSize: 0x10000
+  
+AccessControlInfo:
+  CoreVersion: 0x2
+  DescVersion: 0x2
+  
+ARM11LocalSystemCapabilities:
+  Extension:
+    AccessControl:
+      EnableNfcController: 0x0
+      EnableGameCard: 0x0
+      EnableSdWriteAccess: 0x1
+  
+ARM11KernelCapabilities:
+  - 0x20000000
+  - 0x20000001
+  - 0x20000002
+  - 0x20000003
+  - 0x20000004
+  - 0x20000005
+  - 0x20000006
+  - 0x20000007
+  
+ARM9AccessControl:
+  Descs:
+    - 0x10000000
+    - 0x10000001
+    - 0x10000002
