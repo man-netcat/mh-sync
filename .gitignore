@@ -1,0 +1,19 @@
+# Build outputs
+build/
+
+# Intermediate build artifacts
+*/build/
+
+# Object and dependency files
+*.o
+*.d
+
+# Linker map
+*.map
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
